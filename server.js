@@ -33,7 +33,7 @@ connectDB();
 // Basic Routes
 app.get('/', (req, res) => {
   res.status(200).json({
-    message: 'Blood Donation Tracking System API',
+    message: 'Blood Donation Tracking',
     version: '1.0.0',
   });
 });
